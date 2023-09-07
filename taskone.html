@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+</head>
+<style>
+    .nav{
+        background-color: aliceblue;
+    }
+    .nav ul{
+        overflow: auto;
+
+    }
+    .nav li{
+        float: left;
+        list-style: none;
+    }
+    .nav li a{
+        padding: 13px 20px
+    }
+    .image{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .image img{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        /* padding: 50px; */
+    }
+
+    .proj1{
+        display: flex;
+        padding-left: 25%;
+        
+    }
+    .proj1 p{
+        padding-right: 20%;
+        padding-left: 2%;
+    }
+
+    .proj2{
+        margin-top: 3%;
+        display: flex;
+        padding-left: 25%;
+    }
+
+    .proj2 p{
+        padding-right: 20%;
+        padding-left: 2%;
+    }
+
+    .myimages{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+
+    .padding{
+        padding: 20px;
+    }
+
+    .yoo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text{
+        position: relative;
+        bottom: 70px;
+        display: none;
+        cursor: pointer;
+        transition: opacity 0.6s ease-in-out;
+        background-color: rgb(155, 154, 153);
+        width: 100%;
+        justify-content:center;
+        /* padding-bottom: 50px; */
+        /* margin-bottom: 180px; */
+    }
+    .img:hover .text{
+        display: flex;
+        height: 0px;
+
+    }
+
+    .img{
+        /* height: 300px; */
+    }
+    .img1{
+        width: 100%;
+    }
+
+    
+
+</style>
+<body>
+    <header>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                
+            </ul>
+
+        </nav>
+    </header>
+    <div class="img">
+        <img class="img1" src="deakin uni.jpeg" alt=" error" width="1000" height="400">
+    <div class="text">
+        <h3 style="color: whitesmoke;">Welcome to my website I'm Brahamjot Kaur!</h3>
+
+    </div>
+</div>
+<div class="image">
+
+    <img src="yaaa.jpg" alt="no image">
+</div>
+    <div class="abc">
+        <p style="text-align: center;">
+           <strong>I am a web developer</strong> 
+        </p>
+        <hr>
+        <p style="text-align: center;"> <strong>Here's what I have done so far</strong></p>
+    </div>
+
+    <div class="proj1">
+        <img src="project1.jpeg" alt="no image" width="400" height="200">
+        <p>FACTOR-E is a robot used for industrial purpose which segregates 
+            items according to its colors and transfers them into required it's respective places 
+            which finally delivers items using line following robot.
+        </p>
+
+    </div>
+    <div class="proj2">
+        <img src="project2.jpeg" alt="no image" width="310" height="200">
+        <p>This device provides protection for solar panel during hazardous 
+            conditions like during hailstorm. This device also provides some additional features 
+            like it cleans panel and also provides data about atmosphere for example humidity and
+            temperature outside.  
+
+        </p>
+
+    </div>
+    <br>
+    <div class="yoo">
+        <p>MY IMAGES</p>
+
+    </div>
+    <div class="myimages">
+    
+    <img class="padding" src="flower1.jpg" alt=" error" width="200" height="350">
+    <img class="padding" src="flower2.jpg" alt=" error" width="200" height="350">
+    <img class="padding" src="flower3.jpg" alt=" error" width="200" height="350">
+    <img class="padding" src="img4.jpeg"alt="error" width="200" height="350">
+    </div>
+   
+</body>
+</html>
